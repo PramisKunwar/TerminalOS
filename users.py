@@ -1,12 +1,3 @@
-"""
-users.py - User Session Management for TerminalOS
---------------------------------------------------
-Handles login, stores the active username, and generates
-the coloured shell prompt string.
-No passwords required – any non-empty username is accepted.
-"""
-
-
 class UserSession:
     """
     Represents the currently logged-in user.
